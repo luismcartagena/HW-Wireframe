@@ -1,0 +1,124 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+
+  }
+  
+  header, nav, section, aside, footer, #full {
+
+    background: #ebebeb;
+
+  }
+
+
+  header {
+
+    padding: 30px;
+    margin-bottom: 20px;
+
+  }
+
+
+  #nav {
+
+    width:100%;
+    height: 30px;
+    overflow: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+
+  }
+
+
+  h1, p {
+      color: #777;
+      background: #ebebeb;
+  }
+
+  
+  section {
+
+      padding: 20px;
+      margin-bottom: 20px;
+      float: left;
+      width: 495px;
+      height: 200px; 
+      padding: 20px;
+
+  }
+  
+  #left {
+      
+    /* background-color:teal */
+
+  }
+  
+  #middle {
+
+    /* background-color:Darkred */
+
+  }
+  
+  #right {
+
+    /* background-color:teal */
+
+  }
+  
+  #full {
+
+    width:100%;
+    overflow: auto;
+  
+  }
+  
+
+
+  #aside, #part {
+
+    float: right;
+    width: 40%;
+    height: 200px;
+    padding: 20px;
+    margin-right: 30px;
+    border: 1px solid #eee;
+    color: #777;
+
+  }
+
+
+  #article {
+
+    float: left;
+    width: 33%;
+    height: 100px;
+    padding: 20px;
+    margin-left: 30px;
+    color: #ebebeb;
+    text-decoration: white;
+    background: #777;
+    border: 1px solid #eee;
+
+  }
+
+  
+  footer {
+
+    padding: 30px;
+    margin-bottom: 20px;
+
+  }
+  
